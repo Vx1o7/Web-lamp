@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+
+}
+.container {
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    /* by default row */
+    flex-direction: row;
+    justify-content: space-between;
+    /* Space around gives every spacing even in left and right */
+    /* space betwen spaces except L and R */
+    /* Space evenly */
+    align-items: stretch; /*streches till the end*/
+    /* center, flex-start = top;  */
+    flex-wrap: wrap;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+}

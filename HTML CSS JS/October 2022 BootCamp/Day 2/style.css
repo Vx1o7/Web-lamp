@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/realistic-neon-lights-background_52683-59889.jpg?w=2000);
+}
+.parent {
+    width: 200px;
+    background-color: rgba(71, 43, 6, 0.65);
+    border-color: black;
+    position: relative;
+}
+
+.box{
+    border: 1px solid green;
+    /*margin: 10px;   */
+    padding: 10px;
+}
+.one {
+    background-color: aqua;
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+}
+.two {
+    background-color: red;
+    bottom: 5px;
+}
